@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:id="@+id/lay_main"
+    android:padding="4.0px"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app"
+        android:id="@+id/tv_apps"
+        android:layout_centerInParent="true"
+        android:text="apps"
+        android:gravity="bottom|center" />
+
+    <TextView
+        style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_home_screen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="home"
+        android:background="@drawable/home"
+        android:gravity="bottom|center" />
+
+    <TextView
+        style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_setting"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="setting"
+        android:background="@drawable/setting"
+        android:gravity="bottom|center" />
+
+    <TextView
+        style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_favor"
+        android:text="star"
+        android:background="@drawable/favor"
+        android:layout_alignTop="@+id/tv_apps"
+        android:layout_alignParentStart="true"
+        android:gravity="bottom|center" />
+
+    <TextView
+        style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_lock_screen"
+        android:text="lock"
+        android:background="@drawable/power"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_apps"
+        android:gravity="bottom|center" />
+
+
+</RelativeLayout>
